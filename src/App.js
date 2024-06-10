@@ -1,17 +1,17 @@
-import logo from './logo.svg';
 import './App.css';
-import Home from './pages/Home';
-// import {
-//   createBrowserRouter,
-//   RouterProvider,
-// } from "react-router-dom";
+import HomePage from './pages/HomePage';
+import {
+  createBrowserRouter,
+  RouterProvider,
+} from "react-router-dom";
+import { Provider } from 'react-redux';
 
 
-// const router = createBrowserRouter([
-//   {
-//     path: "/login",
-//     element: <LoginPage></LoginPage>,
-//   },
+const router = createBrowserRouter([
+  {
+    path: "/",
+    element: <HomePage></HomePage>,
+  },
 //   {
 //     path: "/signup",
 //     element: <SignupPage></SignupPage>,
@@ -100,11 +100,13 @@ import Home from './pages/Home';
 //     path: "*",
 //     element: <PageNotFound></PageNotFound>,
 //   },
-// ]);
+]);
 function App() {
   return (
     <div className="App">
-      <h1 className="text-red-800">hello world</h1>
+      <Provider>
+      <RouterProvider router={router} />
+      </Provider>
     </div>
   );
 }
