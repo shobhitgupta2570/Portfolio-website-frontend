@@ -1,8 +1,10 @@
-import React from 'react'
+import React from 'react';
+import Navbar from "../features/navbar/Navbar"
 
 export default function HomePage() {
-  return (<>
-    <div className="text-black text-3xl flex mx-auto"></div>
+  return (
+  <>
+    <Navbar></Navbar>
     <h1>hello world</h1>
     </>
   )

@@ -4,9 +4,9 @@ import {
   increment,
   incrementAsync,
   selectCount,
-} from './counterSlice';
+} from './navbarSlice';
 
-export default function Counter() {
+export default function Navbar() {
   const count = useSelector(selectCount);
   const dispatch = useDispatch();
  
@@ -14,7 +14,7 @@ export default function Counter() {
   return (
     <div>
       <div>
-        
+        hi
       </div>
     </div>
   );
