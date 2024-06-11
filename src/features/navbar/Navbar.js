@@ -18,6 +18,7 @@ export default function Navbar() {
       <div className=" flex items-end">
       <GiHamburgerMenu size="30" />
       </div>
+      <div className=""></div>
     </div>
   );
 }
