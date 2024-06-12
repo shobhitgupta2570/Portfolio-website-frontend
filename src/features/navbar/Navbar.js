@@ -10,17 +10,18 @@ import { GiHamburgerMenu } from "react-icons/gi";
 export default function Navbar() {
   // const count = useSelector(selectCount);
   // const dispatch = useDispatch();
+  const [menu , setMenu] = useState(false);
  
   
   return (
-    <div className="h-[100%] w-[100%]">
+    <div className="h-[100%] w-[100%] flex-column">
     <div className="w-[100%] bg-black-400 h-[50px] flex items-center justify-end pr-[5%] bg-green-500">
       
       <div className=" flex items-end">
       <GiHamburgerMenu size="30" />
       </div>
     </div>
-    <div className="flex justify-end h-[60px] w-[60%] bg-blue-200">
+    <div onClick={()=>{setMenu(!menu)}} className="ml-[60%] justify-end h-[150px] w-[40%]  bg-blue-200">
     <div className="  h-[60%] w-[40%] bg-red-400 "></div>
     </div>
     </div>
