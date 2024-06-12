@@ -21,12 +21,12 @@ export default function Navbar() {
       <GiHamburgerMenu size="30" />
       </div>
     </div>
-    {menu?
-      <div className="ml-[60%] h-[150px] w-[40%]  bg-blue-200">
+    {/* {menu? */}
+      <div className="ml-[60%] h-[150px] w-[40%] flex-row bg-blue-200">
       <button className="text-xl mx-auto">Projects</button>
-      <button className="">About</button>
-
-    </div>: ""}
+      <button className="text-xl mx-auto">About</button>
+    </div>
+    {/* // : ""} */}
     </div>
   );
 }
