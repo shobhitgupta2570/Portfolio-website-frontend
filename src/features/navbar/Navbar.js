@@ -22,9 +22,11 @@ export default function Navbar() {
       </div>
     </div>
     {/* {menu? */}
-      <div className="ml-[60%] h-[150px] w-[40%] flex-row bg-blue-200">
-      <button className="text-xl mx-auto">Projects</button>
-      <button className="text-xl mx-auto">About</button>
+      <div className="ml-[60%] h-[150px] w-[40%] flex-column items-center justify-center bg-blue-200">
+        <div>
+        
+      <button className="text-xl mx-auto">Projects</button></div>
+      <div><button className="text-xl mx-auto">About</button></div>
     </div>
     {/* // : ""} */}
     </div>
