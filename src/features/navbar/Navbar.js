@@ -14,7 +14,7 @@ export default function Navbar() {
  
   
   return (
-    <div className="h-[100%] w-[100%] flex-column">
+    <div className="h-[100%] w-[100%] ">
     <div className="w-[100%] bg-black-400 h-[50px] flex items-center justify-end pr-[5%] bg-green-500">
       
       <div onClick={(e)=>{setMenu(!menu)}}  className=" flex items-end">
@@ -23,10 +23,9 @@ export default function Navbar() {
     </div>
     {/* {menu? */}
       <div className="ml-[60%] h-[150px] w-[40%] flex-column items-center justify-center bg-blue-200">
-        <div>
-        
-      <button className="text-xl mx-auto">Projects</button></div>
+      <div><button className="text-xl mx-auto">Projects</button></div>
       <div><button className="text-xl mx-auto">About</button></div>
+      <div><button className="text-xl mx-auto">Contact Us</button></div>
     </div>
     {/* // : ""} */}
     </div>
