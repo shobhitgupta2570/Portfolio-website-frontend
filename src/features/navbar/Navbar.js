@@ -22,10 +22,11 @@ export default function Navbar() {
       </div>
     </div>
     {/* {menu? */}
-      <div className="ml-[60%] h-[150px] w-[40%] flex-column items-center justify-center bg-blue-200">
-      <div><button className="text-xl mx-auto">Projects</button></div>
-      <div><button className="text-xl mx-auto">About</button></div>
-      <div><button className="text-xl mx-auto">Contact Us</button></div>
+      <div className="ml-[61%] h-[150px] w-[150px] px-[10%] flex-row items-center justify-center bg-gray-100 md:ml-[98%]">
+      <div><button className="text-xl">Experience</button></div>
+      <div><button className="text-xl">Projects</button></div>
+      <div><button className="text-xl">About</button></div>
+      <div><button className="text-xl">Contact Us</button></div>
     </div>
     {/* // : ""} */}
     </div>
