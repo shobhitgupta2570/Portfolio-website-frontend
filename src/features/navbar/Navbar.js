@@ -14,7 +14,7 @@ export default function Navbar() {
  
   
   return (
-    <div className="h-[100%] w-[100%] ">
+    <div className="h-[100%] w-[100%] flex">
     <div className="w-[100%] bg-black-400 h-[50px] flex items-center justify-end pr-[5%] bg-green-500">
       
       <div onClick={(e)=>{setMenu(!menu)}}  className=" flex items-end">
@@ -22,11 +22,13 @@ export default function Navbar() {
       </div>
     </div>
     {/* {menu? */}
-      <div className="ml-[61%] h-[150px] w-[150px] px-[10%] flex-row items-center justify-center bg-gray-100 md:ml-[98%]">
+      <div className="flex items-center justify-end w-[150px] px-[5%] bg-gray-100">
+        
       <div><button className="text-xl">Experience</button></div>
       <div><button className="text-xl">Projects</button></div>
       <div><button className="text-xl">About</button></div>
       <div><button className="text-xl">Contact Us</button></div>
+      <div><button className="text-xl">Education</button></div>
     </div>
     {/* // : ""} */}
     </div>
