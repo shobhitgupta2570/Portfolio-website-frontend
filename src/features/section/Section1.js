@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { GiHamburgerMenu } from "react-icons/gi";
+
 // import { useSelector, useDispatch } from 'react-redux';
 // import {
 //   increment,
@@ -15,7 +15,7 @@ export default function Navbar() {
   
   return (
     <div className="h-[500px] w-[100%] bg-blue-200">
-   
+    <img className='h-11 w-11' src=""/>
     
     </div>
   );
