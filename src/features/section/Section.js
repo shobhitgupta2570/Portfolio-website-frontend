@@ -23,7 +23,7 @@ export default function Navbar() {
     </div>
     {menu?
       <div className="relative w-[100%] px-[5%]">
-      <div className=" bg-gray-100 w-[140px]  lg:mr-7 flex flex-col items-center  absolute right-0 py-2">
+      <div className=" bg-gray-50 w-[140px]  lg:mr-7 flex flex-col items-center  absolute right-0 py-2">
       <div><button className="text-xl shadow-md shadow-grey">Experience</button></div>
       <div><button className="text-xl shadow-md shadow-grey">Projects</button></div>
       <div><button className="text-xl shadow-md shadow-grey">About</button></div>
