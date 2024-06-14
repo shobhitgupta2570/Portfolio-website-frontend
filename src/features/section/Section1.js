@@ -15,7 +15,7 @@ export default function Navbar() {
   
   return (
     <div className="h-[500px] w-[100%] bg-blue-200">
-    <img className='h-11 w-11' src=""/>
+    <img className='h-11 w-11' src="assets\shobhitImage.jpg"/>
     
     </div>
   );
