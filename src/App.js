@@ -11,6 +11,7 @@ import {
 } from "react-router-dom";
 import SkillsPage from './pages/SkillsPage';
 import EducationPage from './pages/EducationPage';
+import SocialProfilesPage from './pages/SocialProfilesPage';
 
 
 const router = createBrowserRouter([
@@ -41,6 +42,10 @@ const router = createBrowserRouter([
   {
     path:"/certificates",
     element: <CertificatesPage></CertificatesPage>,
+  },
+  {
+    path:"/socialprofiles",
+    element: <SocialProfilesPage></SocialProfilesPage>,
   },
   {
     path: "*",

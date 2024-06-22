@@ -23,7 +23,7 @@ const pages = [
   { name: "Certificates", link: "/certificates", user: true },
   { name: "Education", link: "/education", user: true },
   { name: "About Me", link: "/about", user: true },
-  { name: "SocialMedia", link: "/socialmedia", user: true }
+  { name: "SocialProfiles", link: "/socialprofiles", user: true }
 ]
 const settings = ['Profile', 'Account', 'Dashboard', 'Logout'];
 
