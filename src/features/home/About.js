@@ -14,8 +14,13 @@ export default function About() {
   return(
     <div className="w-[1440px] h-[500px]">
       <div className="w-[80%] min-h-screen mx-auto grid grid-cols-2 bg-red-600">
-      <div className=" bg-blue-200">hi</div>
-      <div className=" bg-green-200">hello</div>
+      <div className=" bg-blue-200 flex items-center justify-center">hi</div>
+      <div className=" bg-green-200">
+      <img className="mx-auto h-40 w-40 mt-11 rounded-full"
+             src={profilePic}
+             alt="Your Name"
+          />
+      </div>
       </div>
        
     </div>
