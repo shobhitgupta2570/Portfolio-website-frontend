@@ -14,13 +14,13 @@ export default function HomePage() {
   <>
     {/* <Navbar></Navbar>
     <Section1></Section1> */}
-    <Navbar1></Navbar1>
+    {/* <Navbar1></Navbar1> */}
     <AboutPage></AboutPage>
-    <SkillsPage></SkillsPage>
+    {/* <SkillsPage></SkillsPage>
     <ProjecstsPage></ProjecstsPage>
     <ExperiencePage></ExperiencePage>
     <EducationPage></EducationPage>
-    <CertificatesPage></CertificatesPage>
+    <CertificatesPage></CertificatesPage> */}
     
     </>
   )

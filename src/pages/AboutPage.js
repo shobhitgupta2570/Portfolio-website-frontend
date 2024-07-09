@@ -5,7 +5,6 @@ import Navbar from '../features/navbar/Navbar1'
 export default function AboutPage() {
   return (
     <div>
-       <Navbar></Navbar>
         <About></About>
     </div>
   )

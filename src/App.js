@@ -12,44 +12,45 @@ import {
 import SkillsPage from './pages/SkillsPage';
 import EducationPage from './pages/EducationPage';
 import SocialProfilesPage from './pages/SocialProfilesPage';
+import Layout from './Layout'; 
 
 
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <HomePage></HomePage>,
+    element: <Layout><HomePage /></Layout>,
   },
   {
-    path:"/about",
-    element: <AboutPage></AboutPage>,
+    path: "/about",
+    element: <Layout><AboutPage /></Layout>,
   },
   {
-    path:"/projects",
-    element: <ProjectsPage></ProjectsPage>,
+    path: "/projects",
+    element: <Layout><ProjectsPage /></Layout>,
   },
   {
-    path:"/experience",
-    element: <ExperiencePage></ExperiencePage>,
+    path: "/experience",
+    element: <Layout><ExperiencePage /></Layout>,
   },
   {
-    path:"/skills",
-    element: <SkillsPage></SkillsPage>,
+    path: "/skills",
+    element: <Layout><SkillsPage /></Layout>,
   },
   {
-    path:"/education",
-    element: <EducationPage></EducationPage>,
+    path: "/education",
+    element: <Layout><EducationPage /></Layout>,
   },
   {
-    path:"/certificates",
-    element: <CertificatesPage></CertificatesPage>,
+    path: "/certificates",
+    element: <Layout><CertificatesPage /></Layout>,
   },
   {
-    path:"/socialprofiles",
-    element: <SocialProfilesPage></SocialProfilesPage>,
+    path: "/socialprofiles",
+    element: <Layout><SocialProfilesPage /></Layout>,
   },
   {
     path: "*",
-    element: <NotFoundPage></NotFoundPage>,
+    element: <NotFoundPage />,
   },
 
 ]);
