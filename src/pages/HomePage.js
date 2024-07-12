@@ -16,11 +16,11 @@ export default function HomePage() {
     <Section1></Section1> */}
     {/* <Navbar1></Navbar1> */}
     <AboutPage></AboutPage>
-    {/* <SkillsPage></SkillsPage>
-    <ProjecstsPage></ProjecstsPage>
+    <SkillsPage></SkillsPage>
+    {/* {<ProjecstsPage></ProjecstsPage>
     <ExperiencePage></ExperiencePage>
     <EducationPage></EducationPage>
-    <CertificatesPage></CertificatesPage> */}
+    <CertificatesPage></CertificatesPage>} */}
     
     </>
   )
